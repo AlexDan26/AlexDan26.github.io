@@ -1,0 +1,76 @@
+/*--------------------------------------------------------- 
+# Import de la police et variables
+---------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(../scss/custom_bootstrap.scss); /*Poser la question au prof*/
+:root {
+  --turquoise: #177e89;
+  --bleu: #084c61;
+  --rouge: #db3a34;
+  --jaune: #ffc857;
+  --noir: #323031;
+  --police: "Raleway", sans-serif; /*Pour font-family*/
+  --normal: 100; /*Pour font-weight*/
+  --soustitle: 500; /*Pour font-weight*/
+  --title: 900; /*Pour font-weight*/
+}
+
+body{
+  max-width: 1920px;
+  margin:auto;
+  background-color: var(--jaune);
+
+}
+
+/*--------------------------------------------------------- 
+# Styles des titres
+---------------------------------------------------------*/
+
+h1,
+.h1 {
+  font-size: 40px;
+  font-weight: (--title);
+  color: var(--noir);
+}
+
+h2,
+.h2 {
+  font-size: 30px;
+  font-weight: (--title);
+  color: var(--noir);
+}
+
+h3,
+.h3 {
+  font-size: 30px;
+  font-weight: (--soustitle);
+  color: var(--rouge);
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+  font-weight: (--soustitle);
+  color: var(--noir);
+}
+
+h5,
+.h5 {
+  font-size: 15px;
+  font-weight: (--soustitle);
+  color: var(--noir);
+}
+
+h6,
+.h6 {
+  font-size: 10px;
+  font-weight: (--soustitle);
+  color: var(--noir);
+}
+/*--------------------------------------------------------- 
+# Styles  Généraux
+---------------------------------------------------------*/
+div {
+  font-family: var(--normal);
+  font-weight: var(--title);
+}

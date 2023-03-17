@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --turquoise: #177E89;
+    --bleu: #084c61;
+    --rouge: #DB3a34;
+    --jaune: #ffc857;
+    --noir: #323031;
+    --normal: 'Raleway', sans-serif; /*Pour font-family*/
+    --title: 900; /*Pour font-weight*/
+  } 
+ 
+div{
+    color: var(--jaune);
+    font-family: var(--normal);
+    font-weight: var(--title);
+} 
+/*--------------------------------------------------------- 
+# Styles  Hero
+---------------------------------------------------------*/
+.hero{
+  padding: 40px 0 20px 0;
+}
+/*--------------------------------------------------------- 
+# Styles  Nav
+---------------------------------------------------------*/
+nav {
+  background-color: var(--rouge);
+  color: var(--noir);
+}
+/*--------------------------------------------------------- 
+# Styles  Section
+---------------------------------------------------------*/
+section{
+  border-radius: 10px;
+}
+/*--------------------------------------------------------- 
+# Styles  Footer
+---------------------------------------------------------*/
+footer{
+  padding: 20px 0 20px 0;
+  color: #fff;
+  background-color:var(--bleu);
+}
+#lienGitHub {
+  color: var(--rouge);
+  text-decoration: none;
+}
+#lienGitHub:hover{
+  color: var(--jaune);
+}
+/*--------------------------------------------------------- 
+# Styles Fonctionaltitées et ses Cartes
+---------------------------------------------------------*/
+.section-features{
+  padding: 20px 0 20px 0;
+  background-color: var(--turquoise);
+}
+
+.fonc{
+  margin: 10px 0 10px 0;
+  height: 250px;
+}
+@media screen and (min-width: 992px) {
+  .fonc {
+    height: auto;
+  }
+}
+.bi{
+  text-align: center;
+  color: var(--bleu);
+  font-size:40px;
+}
+
+/*--------------------------------------------------------- 
+# Styles En Savoir Plus
+---------------------------------------------------------*/
+
+#GoToSavoir{
+  background-color: var(--noir);
+}
+#GoToSavoir h2{
+  color: var(--jaune);
+}
+
+.swiper{
+  text-align: center;
+
+}
+
+.imgSwiperScreen{
+  width: 400px;
+  border: solid 20px #DB3a34;
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.swiper-slide-active img{
+  opacity: 1;
+}
+
+/*--------------------------------------------------------- 
+# Styles Témoignages et ses Cartes
+---------------------------------------------------------*/
+.section-testimonials{
+  padding: 20px 0 20px 0;
+  background-color: var(--rouge);
+}
+
+.imgTest{
+  box-shadow: 5px 10px var(--turquoise);
+  border-radius: 5px;
+  margin: 10px;
+  object-fit: cover;
+  height: 20vh;
+}
+.testc{
+  margin: 10px;
+  border-color: var(--rouge);
+  height: auto;
+}
+
+.bi-chat-right-quote-fill{
+  position:absolute;
+  margin: 10px 0 0 20px;
+  color: var(--jaune);
+}
+
+/*--------------------------------------------------------- 
+# Styles Infolettre
+---------------------------------------------------------*/
+#infolettre{
+  padding: 50px 0 50px 0;
+  background-image: url(../assets/Info_BG.jpg);
+  background-size: cover;
+}
+
+.infoTexte{
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgba(181, 181, 181, 0.7);
+}
+/*--------------------------------------------------------- 
+# Styles Fenêtre Modale
+---------------------------------------------------------*/
+.bi-envelope-open-fill{
+  font-size: medium;
+  margin-right: 20px;
+}
+
+#email{
+  width: 300px;
+}
+
+/*--------------------------------------------------------- 
+# Styles FAQ
+---------------------------------------------------------*/
+#faq{
+  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
+  background-color: #fff;
+  color: #fff;
+}
+

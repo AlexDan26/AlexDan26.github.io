@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+:root {
+    --turquoise: #177E89;
+    --bleu: #084c61;
+    --rouge: #DB3a34;
+    --jaune: #ffc857;
+    --noir: #323031;
+    --normal: 'Raleway', sans-serif; /*Pour font-family*/
+    --title: 900; /*Pour font-weight*/
+  } 
+ 
+body{
+  overflow-x: hidden;
+}
+
+div{
+    color: var(--jaune);
+    font-family: var(--normal);
+    font-weight: var(--title);
+} 
+
+.navbar{
+  background: rgba(0,0,0,0.5);
+   
+   color:  var(--jaune);
+}
+
+.navbar-brand{
+  color:  var(--jaune);
+}
+
+.footer{
+  background-color: var(--noir);
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-top: 300px;
+}
+
+.footer .card{
+  background-color: var(--noir);
+  font-family: var(--normal);
+  color: var(--noir);
+  
+}
+
+h4{
+  font-family: var(--normal);
+  
+}
+
+#profil{
+ width: 36px;
+ border-radius: 40%;
+
+}
+
+#logoecole{
+  width: 50%;
+}
+
+#vedette{
+  font-family: var(--normal);
+}
+
+#cardoeuvres{
+ width: 140%;
+ overflow: hidden;
+}
+
+#cardoeuvres:hover{
+  background-color: var(--rouge);
+  
+}
+
+#cardoeuvres .card{
+ max-width: 200px;
+}
+
+
+#envedetteimage{
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+  padding-top: 33%;
+}
+
+#autreimage{
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.modal{
+  
+}
+
+.row{
+  width: 140%;
+}
+
+#iconethumb:{
+
+}
+
+.swiper-featured-artworks .swiper-slider{
+  width: 100%;
+}
+
